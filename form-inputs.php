@@ -16,6 +16,13 @@
 	</head>
 
 	<body alink="#000000" vlink="#000000" link="#000000">
-
+		<div id="page">
+			<input type="text"/><br/>
+			<input type="button"/><br/>
+			<select><br/>
+				<option>test</option>
+				<option>test</option>
+			</select>
+		</div>
 	</body>
 </html>
