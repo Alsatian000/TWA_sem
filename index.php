@@ -10,11 +10,26 @@
 
 <title>Matrika</title>
 
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 
 <body  alink="#000000" vlink="#000000" link="#000000">
 
+			<header class="wide">
+				<div class="page">
+					<?php 
+						include ('system/header/header.php');
+					 ?>
+				</div>
+			</header>
+
+				<div class="page">
+					<div id="main">
+						
+					</div>
+				</div>
 
 
 
