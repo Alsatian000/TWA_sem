@@ -9,7 +9,7 @@
 		<meta name="author" content="Tomas Smazal"/>
 		<title>TWA - tom forms</title>
 		<!--<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">-->
-      	<link rel="stylesheet" type="text/css" href="css/inputs.css" />
+		<link rel="stylesheet" type="text/css" href="css/inputs.css" />
 		<script type="text/javascript" async="" src="http://utils.similagroup.com/countryscript/v3.js"></script>
 		
 	<!--	<script type="text/javascript" src="js/page.js"></script>-->
@@ -17,12 +17,30 @@
 
 	<body alink="#000000" vlink="#000000" link="#000000">
 		<div id="page">
-			<input type="text"/><br/>
-			<input type="button"/><br/>
+			<input type="text" value="textbutton"/><br/>
+			<input type="text" placeholder="textbutton"/><br/>
+			<input type="password" value="password"/><br/>
+			<input type="password" placeholder="password"/><br/>
+			<input type="button" value="Uložit data"/><br/>
 			<select><br/>
 				<option>test</option>
 				<option>test</option>
-			</select>
+			</select><br/>
+			<input list="browsers">
+			<datalist id="browsers">
+				<option value="Internet Explorer">
+				<option value="Firefox">
+				<option value="Google Chrome">
+				<option value="Opera">
+				<option value="Safari">
+			</datalist>
+
+			<div class="checkbox">
+				<input type="checkbox" value="None" id="checkbox" name="check" />
+				<label for="checkbox"></label>
+				<h3>popisek</h3>
+			</div>
+
 		</div>
 	</body>
 </html>
