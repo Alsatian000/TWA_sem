@@ -3,6 +3,7 @@
 
 <div id="pridani_pacienta_page">
 	
+	<h1><b>Přidání nového pacienta</b> </h1>	<br><br>
 
 	<input type="text" placeholder="Jméno"/><br/>
 	<input type="text" placeholder="Příjmení"/><br/>

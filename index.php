@@ -29,6 +29,7 @@
 
 					<?php
 						include ('system/pacient/pacient.php');
+						/*include ('system/pracovnik/pracovnik.php');*/
 					?>
 					
 					</div>

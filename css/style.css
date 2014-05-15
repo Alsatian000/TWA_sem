@@ -53,75 +53,6 @@ body span{
 	overflow: visible;
 }*/
 
-/*---------Header-----------------*/
-
-header{
-	position: relative;
-	min-width: 1000px;
-	width: 1000px;
-	height: 100px;
-	background-color: #0072bc;
-	overflow: visible;
-	margin: 0 auto;
-
-
-}
-
-#nazev_programu{
-	display: table-cell;
-	position: relative;
-	width: 200px;
-	height: 50px;
-	background-color: #ffa500;
-	top: 50px;
-}
-
-header nav{
-	position: absolute;
-	/*margin-left: 650px;
-	margin-top: 61px;*/
-	right:100px;
-	bottom:6px;
-	list-style-type: none;
-}
-
-header li{
-	color: #FFFFFF;
-	display: inline;
-	padding: 5px 15px 5px 15px;
-	/*nevim co to je prej to nepochopim :D*/
-	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0.8)));
-	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.8) 100%);
-	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.8) 100%);
-	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.8) 100%);
-	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.8) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#cc000000',GradientType=0 );
-
-	}
-
-
-
-
-/*****************************/
-
-#pridani_pacienta_page{
-	position: relative;
-	min-width: 300px;
-	width: 300px;
-	height: auto;
-	/*background-color: #5ca028;*/
-	left: 50%;
-	margin-left: -150px;
-	top: 100px;
-}
-
-
-
-
-
-
-
 input, textarea, select { 
 	padding-left: 20px;
 	margin: 0px;
@@ -228,6 +159,73 @@ a, a:active, a:after{
 	height: 1800px;
 	background-color: #ccc;
 }
+
+
+
+/*---------Header-----------------*/
+
+header{
+	position: relative;
+	min-width: 1000px;
+	width: 1000px;
+	height: 100px;
+	background-color: #0072bc;
+	overflow: visible;
+	margin: 0 auto;
+
+
+}
+
+#nazev_programu{
+	display: table-cell;
+	position: relative;
+	width: 200px;
+	height: 50px;
+	background-color: #ffa500;
+	top: 50px;
+}
+
+header nav{
+	position: absolute;
+	/*margin-left: 650px;
+	margin-top: 61px;*/
+	right:100px;
+	bottom:6px;
+	list-style-type: none;
+}
+
+header li{
+	color: #FFFFFF;
+	display: inline;
+	padding: 5px 15px 5px 15px;
+	/*nevim co to je prej to nepochopim :D*/
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0.8)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.8) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.8) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.8) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#cc000000',GradientType=0 );
+
+	}
+
+
+
+
+/*****************************/
+
+#pridani_pacienta_page, #pridani_pracovnika_page{
+	position: relative;
+	min-width: 300px;
+	width: 300px;
+	height: auto;
+	/*background-color: #5ca028;*/
+	left: 50%;
+	margin-left: -150px;
+	top: 100px;
+}
+
+
 
 
 
